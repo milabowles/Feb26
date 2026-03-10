@@ -55,3 +55,5 @@ def sum_profit(text: str, func: Callable[[str], Generator[float, None, None]]) -
     for number in func(text):
         total += number
     return total
+
+
